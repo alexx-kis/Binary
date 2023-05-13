@@ -133,6 +133,8 @@ body {
 	transition: .3s;
 	// margin: 0 25px;
 
+	color: #3c3c3c;
+
 	&:visited {
 		color: #3c3c3c;
 	}
@@ -403,9 +405,6 @@ body {
 	}
 
 	&__form {
-		// display: flex;
-		// flex-wrap: wrap;
-		// max-width: 384px;
 		margin-right: 40px;
 		margin-bottom: 40px;
 		position: relative;
@@ -413,6 +412,10 @@ body {
 
 	&__form-row {
 		display: flex;
+	}
+
+	&__input {
+		padding: 10px;
 	}
 
 	&__yourname {
@@ -501,13 +504,12 @@ body {
 		margin: 0 0 18px 0;
 	}
 
-	&__logos {
+	&__socials {
 		display: flex;
-
 		margin: 0 0 18px 0;
 	}
 
-	&__logo1 {
+	&__socials-link {
 		border: 2px solid #262626;
 		width: 29px;
 		height: 29px;
@@ -515,18 +517,9 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		margin-right: 10px;
 	}
 
-	&__logo2 {
-		border: 2px solid #262626;
-		width: 29px;
-		height: 29px;
-		border-radius: 50%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin: 0 0 0 10px;
-	}
 }
 
 /*==================================== FOOTER ====================================*/
@@ -565,6 +558,7 @@ body {
 		}
 
 		a {
+			color: #a4a4a4;
 			margin: 0 12px;
 			transition: all .3s;
 		}
