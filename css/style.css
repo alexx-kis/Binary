@@ -178,6 +178,7 @@ body {
 .about__ .about__link,
 .link {
   transition: 0.3s;
+  color: #3c3c3c;
 }
 .about__ .about__link:visited,
 .link:visited {
@@ -413,6 +414,9 @@ body {
 .contact__form-row {
   display: flex;
 }
+.contact__input {
+  padding: 10px;
+}
 .contact__yourname {
   font-size: 14px;
   line-height: 1.2;
@@ -486,11 +490,11 @@ body {
   font-weight: 700;
   margin: 0 0 18px 0;
 }
-.contact__logos {
+.contact__socials {
   display: flex;
   margin: 0 0 18px 0;
 }
-.contact__logo1 {
+.contact__socials-link {
   border: 2px solid #262626;
   width: 29px;
   height: 29px;
@@ -498,16 +502,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contact__logo2 {
-  border: 2px solid #262626;
-  width: 29px;
-  height: 29px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0 0 10px;
+  margin-right: 10px;
 }
 
 /*==================================== FOOTER ====================================*/
@@ -539,6 +534,7 @@ body {
   color: #a4a4a4;
 }
 .footer__menu a {
+  color: #a4a4a4;
   margin: 0 12px;
   transition: all 0.3s;
 }
