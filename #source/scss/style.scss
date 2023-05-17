@@ -27,6 +27,10 @@ body {
 	font-family: Lato;
 }
 
+a {
+	color: inherit;
+}
+
 
 .wrapper {
 	min-height: 100%;
@@ -284,6 +288,7 @@ body {
 		color: #3c3c3c;
 		font-weight: 700;
 		transition: all .3s;
+		background: transparent;
 
 		&:hover {
 			color: #ada074;
@@ -301,7 +306,6 @@ body {
 		max-width: 85%;
 		margin: 0 auto;
 		justify-items: center;
-		align-items: center;
 		gap: 20px;
 		margin-bottom: 40px;
 	}
