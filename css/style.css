@@ -556,9 +556,9 @@ a {
 }
 .contact__heading {
   margin-bottom: 100px;
-  -webkit-transform: translate(0, -50px);
-      -ms-transform: translate(0, -50px);
-          transform: translate(0, -50px);
+  -webkit-transform: translate(0, 100px);
+      -ms-transform: translate(0, 100px);
+          transform: translate(0, 100px);
   opacity: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -659,12 +659,12 @@ a {
 .contact__info {
   max-width: 255px;
   margin: 0 0 0 40px;
-  -webkit-transform: translate(-100px, 0);
-      -ms-transform: translate(-100px, 0);
-          transform: translate(-100px, 0);
+  -webkit-transform: translate(100px, 0);
+      -ms-transform: translate(100px, 0);
+          transform: translate(100px, 0);
   opacity: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.5s 1s;
+  transition: all 0.5s 1s;
 }
 .contact__text {
   font-size: 14px;
